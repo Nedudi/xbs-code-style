@@ -6,9 +6,11 @@
 
 ***Bad:***
 
-    var a = 5
-    var myFunction1 = function(){...}
-    
+```js
+var a = 5
+var myFunction1 = function(){...}
+```  
+
 ***Good:***
     
     var myVar1 = 5;
