@@ -12,10 +12,10 @@ var myFunction1 = function(){...}
 ```  
 
 ***Good:***
-    
+```js    
     var myVar1 = 5;
     var myFunction1 = function(){...};
- 
+``` 
  
 ## 2. Naming
 
@@ -24,13 +24,15 @@ var myFunction1 = function(){...}
    
 ***Bad:***
 
+```js
     var my-vovely_variable;
     var my-LovelyFunction = function(){...}
     var my-Lovely_obj = {
      dosometing:function(){...},
      "here-is-property":5
     }
-    
+```  
+
 ***Good:***
     
     var myLovelyVariable;
@@ -42,7 +44,8 @@ var myFunction1 = function(){...}
 
  
 <!--#### 2.2	Constructor function name should start with capital letter and named as a singular noun
-***Bad:***
+
+***Bad:***
 
     function Apples() {...}
     function Apples() {...}
@@ -67,8 +70,13 @@ var myFunction1 = function(){...}
 ***Good:***
 
     example.settings.ANIMATION_FPS = 60;
-## 3. Code
-### 3.1. Avoid using global variables
+
+
+
+## 3. Code
+
+
+### 3.1. Avoid using global variables
 
 ***Bad:***
 
@@ -108,4 +116,7 @@ var myFunction1 = function(){...}
     
     var myVar1 = 'Hello';
     var myFunction1 = function(a){...};
-    var myFunction2 = function(b){...};---------------------------------------------------------------------------
+    var myFunction2 = function(b){...};
+
+
+---------------------------------------------------------------------------
