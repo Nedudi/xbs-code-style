@@ -39,7 +39,7 @@
     var myLovelyVariable;
     var myLovelyFunction = function(){}
     var myLovelyObj = {
-     doSometing:function(){...}
+     doSometing:function(){...},
      hereIsProperty:5
     }
 ```  
