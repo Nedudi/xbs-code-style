@@ -7,8 +7,8 @@
 ***Bad:***
 
 ```js
-var a = 5
-var myFunction1 = function(){...}
+    var a = 5
+    var myFunction1 = function(){...}
 ```  
 
 ***Good:***
@@ -34,25 +34,29 @@ var myFunction1 = function(){...}
 ```  
 
 ***Good:***
-    
+
+```js    
     var myLovelyVariable;
     var myLovelyFunction = function(){}
     var myLovelyObj = {
      doSometing:function(){...}
      hereIsProperty:5
     }
+```  
 
  
 <!--#### 2.2	Constructor function name should start with capital letter and named as a singular noun
 
 ***Bad:***
 
+```js
     function Apples() {...}
     function Apples() {...}
 
     
 ***Good:***
 
+```js
     function Apple() {...}
     -->
     
@@ -61,15 +65,21 @@ var myFunction1 = function(){...}
 
 ***Bad:***
 
+```js
     example.settings.animationFps = 60;
+```  
 
 ***Also Bad:***
-    
+
+```js    
     example.settings.ANIMATION_FPS = currentNumberOfFrames/currentDelay;
+```  
     
 ***Good:***
 
+```js
     example.settings.ANIMATION_FPS = 60;
+```  
 
 
 
@@ -80,27 +90,34 @@ var myFunction1 = function(){...}
 
 ***Bad:***
 
+```js
     mySettings = {...}
     myOptions = {...}
     myProperties = {...}
     mySomething = {...}
+```  
 
 *** Also Bad: ***
 
+```js
     window.mySettings = {...}
     window.myOptions = {...}
     window.myProperties = {...}
     window.mySomething = {...}
+```  
 
     
 ***Good:***
 
+```js
     window.XBS = {
       mySettings: {...}
       myOptions: {...}
       myProperties: {...}
       mySomething: {...}
     }
+```  
+
     
 ### 3.2. Declare with `var`
  
@@ -108,15 +125,20 @@ var myFunction1 = function(){...}
  
 ***Bad:***
 
+```js
     myVar1 = 'Hello';
     myFunction1 = function(a){...};
     myFunction2(b){...}
+```  
+
     
 ***Good:***
-    
+
+```js    
     var myVar1 = 'Hello';
     var myFunction1 = function(a){...};
     var myFunction2 = function(b){...};
+```  
 
 
 ---------------------------------------------------------------------------
