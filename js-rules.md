@@ -140,5 +140,38 @@
     var myFunction2 = function(b){...};
 ```  
 
+### 3.3. Declare variables in the begining of function declaration
+ 
+***Bad:***
 
+```js
+
+    var myFunction = function(){
+    
+      var myVar1 = 'Hello';
+      myFunction2(myFunction1(myVar1));
+      var myFunction1 = function(a){...};
+      myFunction1(myVar1-myFunction2(33));
+      var myFunction2(b){...}
+      
+    }
+```  
+
+    
+***Good:***
+
+
+```js
+
+    var myFunction = function(){
+    
+      var myVar1 = 'Hello';
+      var myFunction1 = function(a){...};
+      var myFunction2(b){...}
+      
+      myFunction2(myFunction1(myVar1));
+      myFunction1(myVar1-myFunction2(33));
+      
+    }
+```  
 ---------------------------------------------------------------------------
