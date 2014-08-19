@@ -111,9 +111,9 @@
 
 ```js
     window.XBS = {
-      mySettings: {...}
-      myOptions: {...}
-      myProperties: {...}
+      mySettings: {...},
+      myOptions: {...},
+      myProperties: {...},
       mySomething: {...}
     };
 ```  
