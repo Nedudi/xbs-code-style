@@ -26,7 +26,7 @@
 
 ```js
     var my-vovely_variable;
-    var my-LovelyFunction = function(){...}
+    var my-LovelyFunction = function(){...};
     var my-Lovely_obj = {
      dosometing:function(){...},
      "here-is-property":5
@@ -37,11 +37,11 @@
 
 ```js    
     var myLovelyVariable;
-    var myLovelyFunction = function(){}
+    var myLovelyFunction = function(){};
     var myLovelyObj = {
      doSometing:function(){...},
      hereIsProperty:5
-    }
+    };
 ```  
 
  
@@ -91,19 +91,19 @@
 ***Bad:***
 
 ```js
-    mySettings = {...}
-    myOptions = {...}
-    myProperties = {...}
-    mySomething = {...}
+    mySettings = {...};
+    myOptions = {...};
+    myProperties = {...};
+    mySomething = {...};
 ```  
 
 ***Also Bad:***
 
 ```js
-    window.mySettings = {...}
-    window.myOptions = {...}
-    window.myProperties = {...}
-    window.mySomething = {...}
+    window.mySettings = {...};
+    window.myOptions = {...};
+    window.myProperties = {...};
+    window.mySomething = {...};
 ```  
 
     
@@ -115,7 +115,7 @@
       myOptions: {...}
       myProperties: {...}
       mySomething: {...}
-    }
+    };
 ```  
 
     
@@ -128,7 +128,7 @@
 ```js
     myVar1 = 'Hello';
     myFunction1 = function(a){...};
-    myFunction2(b){...}
+    myFunction2(b){...};
 ```  
 
     
@@ -152,7 +152,7 @@
       myFunction2(myFunction1(myVar1));
       var myFunction1 = function(a){...};
       myFunction1(myVar1-myFunction2(33));
-      var myFunction2(b){...}
+      var myFunction2(b){...};
       
     }
 ```  
@@ -167,7 +167,7 @@
     
       var myVar1 = 'Hello';
       var myFunction1 = function(a){...};
-      var myFunction2(b){...}
+      var myFunction2(b){...};
       
       myFunction2(myFunction1(myVar1));
       myFunction1(myVar1-myFunction2(33));
