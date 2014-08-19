@@ -97,7 +97,7 @@
     mySomething = {...}
 ```  
 
-*** Also Bad: ***
+***Also Bad:***
 
 ```js
     window.mySettings = {...}
