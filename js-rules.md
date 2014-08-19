@@ -174,4 +174,46 @@
       
     }
 ```  
+
+## 4. Dark forgotten powers
+
+### 4.1 Do not use eval
+
+***Bad:***
+
+```js
+    var a = eval(json_text);
+```  
+
+***Good:***
+```js    
+    var a = JSON.parse(json_text);
+``` 
+
+### 4.2 Do not use "with" command
+
+***Bad:***
+```js
+    var obj = { a: 123 };
+    with(obj)
+        alert(a);
+```  
+
+***Good:***
+```js    
+    var obj = { a: 123 };
+    alert(obj.a);
+``` 
+
+## 5. White powers
+
+### 5.1 Use strict mode
+
+```js
+//as first line in js file
+"use strict"; 
+  
+my_code_here();
+```
+
 ---------------------------------------------------------------------------
