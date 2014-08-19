@@ -1,5 +1,8 @@
-# Good practices
-### 1.1. We use **$**something for variables that represent jQuery wrapped dom node(s)
+
+
+# Good practices
+
+### 1.1. We use $something for variables that represent jQuery wrapped dom node(s)
    
    
 ***Bad:***
@@ -21,9 +24,12 @@
 ***Good:***
     
     var that = this; 
-### 1.3. We don't use style classes for binding js events. Good practice to use id, or additional class starting with `js-` 
-**example:** 
-    class="btn btn-success btn-red js-class-to-attach-events"
+
+### 1.3. We don't use style classes for binding js events. Good practice to use id, or additional class starting with `js-` 
+
+**example:** 
+
+    class="btn btn-success btn-red js-class-to-attach-events"
 
 ***Bad:***
 
