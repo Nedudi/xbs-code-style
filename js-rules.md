@@ -213,7 +213,7 @@
 //as first line in js file
 "use strict"; 
   
-my_code_here();
+myCodeHere();
 ```
 
 ---------------------------------------------------------------------------
