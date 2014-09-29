@@ -81,6 +81,8 @@
     example.settings.ANIMATION_FPS = 60;
 ```  
 
+### 2.3. A function size must be less than 80 lines.
+
 
 
 ## 3. Code
